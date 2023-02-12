@@ -36,8 +36,8 @@
 [Conceptual diagram](https://lucid.app/lucidchart/4529a44b-e846-4821-821b-7bdfd85248db/edit?viewport_loc=-540%2C-101%2C2328%2C1887%2C0_0&invitationId=inv_f07919c8-cf34-4eb4-b2a4-f7fcf1b6b17f)
 
 # EventBridge Health Dashboard hook up
-- what is aws health?
-```AWS Health provides ongoing visibility into your resource performance and the availability of your AWS services and accounts. You can use AWS Health events to learn how service and resource changes might affect your applications running on AWS. AWS Health provides relevant and timely information to help you manage events in progress. AWS Health also helps you be aware of and to prepare for planned activities. The service delivers alerts and notifications triggered by changes in the health of AWS resources, so that you get near-instant event visibility and guidance to help accelerate troubleshooting.```
+- what is aws health?<br/>
+```AWS Health provides ongoing visibility into your resource performance and the availability of your AWS services and accounts. You can use AWS Health events to learn how service and resource changes might affect your applications running on AWS. AWS Health provides relevant and timely information to help you manage events in progress. AWS Health also helps you be aware of and to prepare for planned activities. The service delivers alerts and notifications triggered by changes in the health of AWS resources, so that you get near-instant event visibility and guidance to help accelerate troubleshooting.```<br/>
 -health event are notifications aws health sends on behalf of other aws services. for example, aws health can send an event if aws IAM plans to depcrecate managed policy or aws config plans to deprecate managed rule.
 -on aws console, searched aws health dashboard, clicked on pop up notification to configure amazon eventbridge
 -create aws event for ec2 auto scaling instance refresh cancelled
