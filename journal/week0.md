@@ -18,7 +18,7 @@
 
 # Using CloudShell/ aws cli
 
-[Detailed instructions](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md)<br/>
+[Detailed instructions](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md)<br>
 [youtube video](https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=12&ab_channel=ExamPro)
 
 - can use CloudShell CLI rather than aws management console UI to do all your tasks using preferred shell (bash, powershell, or Z shell)
