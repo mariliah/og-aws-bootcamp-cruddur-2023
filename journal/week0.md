@@ -34,6 +34,7 @@
 # Conceptual architectural diagram
 
 [Conceptual diagram](https://lucid.app/lucidchart/4529a44b-e846-4821-821b-7bdfd85248db/edit?viewport_loc=-540%2C-101%2C2328%2C1887%2C0_0&invitationId=inv_f07919c8-cf34-4eb4-b2a4-f7fcf1b6b17f)
+[Logical diagram](https://lucid.app/lucidchart/4529a44b-e846-4821-821b-7bdfd85248db/edit?viewport_loc=-156%2C-11%2C2620%2C1887%2CB1qwpx8lbw~M&invitationId=inv_f07919c8-cf34-4eb4-b2a4-f7fcf1b6b17f)
 
 # EventBridge Health Dashboard hook up
 - what is aws health?<br/>
