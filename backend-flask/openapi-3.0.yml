@@ -13,7 +13,7 @@ paths:
         - activities
       responses:
         '200':
-          description: Returns an array of activities"
+          description: 'Returns an array of activities'
           content:
             application/json:
               schema:
@@ -28,14 +28,14 @@ paths:
       parameters:
         - name: term
           in: query
-          description: Search term used for full text search
+          description: 'Search term used for full text search'
           required: true
           schema:
             type: string
             example: "#100DaysOfCloud"
       responses:
         '200':
-          description: Returns an array of activities"
+          description: 'Returns an array of activities'
           content:
             application/json:
               schema:
@@ -44,7 +44,7 @@ paths:
                   $ref: '#/components/schemas/Activity'
   /api/activities:
     post:
-      description: Create a new activitiy eg. Creating a Crud
+      description: 'Create a new activitiy eg. Creating a Crud'
       tags:
         - activities
       requestBody:
@@ -62,7 +62,7 @@ paths:
                   type: string
       responses:
         '200':
-          description: Returns a recently created activity"
+          description: 'Returns a recently created activity'
           content:
             application/json:
               schema:
@@ -77,13 +77,13 @@ paths:
       parameters:
         - name: handle
           in: path
-          description: Handle (aka Username)
+          description: 'Handle (aka Username)'
           required: true
           schema:
             type: string
       responses:
         '200':
-          description: Returns an array of activities"
+          description: 'Returns an array of activities'
           content:
             application/json:
               schema:
@@ -97,7 +97,7 @@ paths:
         - messages
       responses:
         '200':
-          description: Returns an array of messages groups for a specific user
+          description: 'Returns an array of messages groups for a specific user'
           content:
             application/json:
               schema:
@@ -118,7 +118,7 @@ paths:
             type: string
       responses:
         '200':
-          description: Returns an array of messages between two users
+          description: 'Returns an array of messages between two users'
           content:
             application/json:
               schema:
@@ -141,13 +141,28 @@ paths:
                   type: string
       responses:
         '200':
-          description: Return a single message
+          description: 'Return a single message'
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: '#/components/schemas/Message'
+  /api/activities/notifications:
+    get:
+      description: 'Return a feed of activity for people I follow'
+      tags:
+        - activities
+      parameters: []
+      responses:
+        '200':
+          description: Returns array of activities
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Activity'
 
 components:
   schemas:
